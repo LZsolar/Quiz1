@@ -1,0 +1,15 @@
+C:\Users\EAM\Desktop\เทอมแรกต้องรอด\mdt211\Quiz\Quiz1\quiz1\quiz1\bin\Debug\net6.0\quiz1.exe
+C:\Users\EAM\Desktop\เทอมแรกต้องรอด\mdt211\Quiz\Quiz1\quiz1\quiz1\bin\Debug\net6.0\quiz1.deps.json
+C:\Users\EAM\Desktop\เทอมแรกต้องรอด\mdt211\Quiz\Quiz1\quiz1\quiz1\bin\Debug\net6.0\quiz1.runtimeconfig.json
+C:\Users\EAM\Desktop\เทอมแรกต้องรอด\mdt211\Quiz\Quiz1\quiz1\quiz1\bin\Debug\net6.0\quiz1.dll
+C:\Users\EAM\Desktop\เทอมแรกต้องรอด\mdt211\Quiz\Quiz1\quiz1\quiz1\bin\Debug\net6.0\ref\quiz1.dll
+C:\Users\EAM\Desktop\เทอมแรกต้องรอด\mdt211\Quiz\Quiz1\quiz1\quiz1\bin\Debug\net6.0\quiz1.pdb
+C:\Users\EAM\Desktop\เทอมแรกต้องรอด\mdt211\Quiz\Quiz1\quiz1\quiz1\obj\Debug\net6.0\quiz1.csproj.AssemblyReference.cache
+C:\Users\EAM\Desktop\เทอมแรกต้องรอด\mdt211\Quiz\Quiz1\quiz1\quiz1\obj\Debug\net6.0\quiz1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EAM\Desktop\เทอมแรกต้องรอด\mdt211\Quiz\Quiz1\quiz1\quiz1\obj\Debug\net6.0\quiz1.AssemblyInfoInputs.cache
+C:\Users\EAM\Desktop\เทอมแรกต้องรอด\mdt211\Quiz\Quiz1\quiz1\quiz1\obj\Debug\net6.0\quiz1.AssemblyInfo.cs
+C:\Users\EAM\Desktop\เทอมแรกต้องรอด\mdt211\Quiz\Quiz1\quiz1\quiz1\obj\Debug\net6.0\quiz1.csproj.CoreCompileInputs.cache
+C:\Users\EAM\Desktop\เทอมแรกต้องรอด\mdt211\Quiz\Quiz1\quiz1\quiz1\obj\Debug\net6.0\quiz1.dll
+C:\Users\EAM\Desktop\เทอมแรกต้องรอด\mdt211\Quiz\Quiz1\quiz1\quiz1\obj\Debug\net6.0\ref\quiz1.dll
+C:\Users\EAM\Desktop\เทอมแรกต้องรอด\mdt211\Quiz\Quiz1\quiz1\quiz1\obj\Debug\net6.0\quiz1.pdb
+C:\Users\EAM\Desktop\เทอมแรกต้องรอด\mdt211\Quiz\Quiz1\quiz1\quiz1\obj\Debug\net6.0\quiz1.genruntimeconfig.cache
