@@ -16,15 +16,29 @@ class Program
         Console.WriteLine("***Please input shop Member***");
         shopMember[] member = InputMember();
 
-        Console.WriteLine("Welcome Please select menu:");
-        Console.WriteLine("1 for ShopInfo");
-        Console.WriteLine("2 for ShopOwnerInfo");
-        Console.WriteLine("3 for ShopMemberInfo");
-        int a = int.Parse(Console.ReadLine());
-        if (a == 1){info.printShopInfo();}
-        else if(a== 2){printOwnerInfo(owner);}
-        else if(a==3){printMemberInfo(member);}
+        Console.WriteLine("***Please input shop Income***");
+        IncomeOutcome money = new IncomeOutcome();
+        money.income = InputIncome();
+        money.outcome = outcome(member);
 
+        while (true)
+        {
+            Console.WriteLine("***********************************************");
+            Console.WriteLine("Welcome Please select menu:");
+            Console.WriteLine("1 for ShopInfo");
+            Console.WriteLine("2 for ShopOwnerInfo");
+            Console.WriteLine("3 for ShopMemberInfo");
+            Console.WriteLine("4 for ShopIncomeOutcome");
+            Console.WriteLine("Other for Quit");
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("***********************************************");
+
+            if (a == 1) { info.printShopInfo(); }
+            else if (a == 2) { printOwnerInfo(owner); }
+            else if (a == 3) { printMemberInfo(member); }
+            else if (a == 4) { printIncome(money); }
+            else { break; }
+        }
     }
     public static Owner[] Inputowner()
     {
@@ -84,5 +98,36 @@ class Program
             members[i].PrintMemberInformation();
             Console.WriteLine("***************************");
         }
+    }
+
+    public static int InputIncome() { 
+       
+        int inc = 0;
+        for(int i = 1; i <= 4; i++)
+        {
+            Console.Write("Week {0} shop income:", i);
+            inc+= 127*int.Parse(Console.ReadLine());
+            Console.Write("Week {0} delivery income:", i);
+            inc += 357 * int.Parse(Console.ReadLine());
+        }
+        
+        return inc;
+    }
+
+    public static int outcome(shopMember[] member)
+    {
+        int outcome = 0;
+        for(int i = 0; i < member.Length; i++)
+        {
+            outcome += member[i].salary;
+        }
+        return outcome;
+    }
+
+    public static void printIncome(IncomeOutcome inc)
+    {
+        Console.WriteLine("All shop income = {0}", inc.income);
+        Console.WriteLine("All shop outcome = {0}", inc.outcome);
+        Console.WriteLine("Shop Profit = {0}", inc.income-inc.outcome);
     }
 }
