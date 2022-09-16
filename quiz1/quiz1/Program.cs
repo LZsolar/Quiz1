@@ -41,9 +41,10 @@ class Program
             if (a == 1) { info.printShopInfo(); }
             else if (a == 2) { printOwnerInfo(owner); }
             else if (a == 3) { printMemberInfo(member); }
-            else if (a == 4) { printIncome(money); }
+            else if (a == 4) { money.printIncome(); }
             else { break; }
         }
+        Console.WriteLine("Bye-Bye!");
     }
     public static Owner[] Inputowner()
     {
@@ -129,10 +130,5 @@ class Program
         return outcome;
     }
 
-    public static void printIncome(IncomeOutcome inc)
-    {
-        Console.WriteLine("All shop income = {0}", inc.income);
-        Console.WriteLine("All shop outcome = {0}", inc.outcome);
-        Console.WriteLine("Shop Profit = {0}", inc.income-inc.outcome);
-    }
+   
 }
